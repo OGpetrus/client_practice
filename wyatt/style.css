@@ -1,0 +1,130 @@
+/* RESET */
+<style> @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap'); </style>
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+body{
+    background-color: rgb(20, 1, 37);
+    font-family: 'Rubik', sans-serif;
+    padding: 1em;
+}
+/* HEADING SECTION */
+.section-head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    line-height: 3em;
+}
+header img{
+    border-radius: 4em;
+    width: 8em;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 3em;
+}
+.h5{
+    font-size: 2em;
+}
+input{
+    width: 90%;
+    border-radius: 1em;
+    padding: .5em;
+    margin: 5%;
+    background-color: transparent;
+    color: rgb(92, 23, 156);
+    font-size: 2em;
+}
+/* HEADING SECTION ENDS */
+/* MAIN SECTION BEGINS */
+main h2{
+    font-size: 3em;
+    color: white;
+    padding-bottom: 1em;
+    text-transform: capitalize;
+}
+.border-list{
+    border: 1px solid transparent;
+    width: 12em;
+    height: 14em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 10px transparent;
+}
+.section-head1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: rgb(233, 13, 86);
+}
+.blue{
+    background-color: rgb(18, 66, 138);
+}
+.first{
+        margin:50% 15%;
+}
+/* END OF MAIN SECTION */
+/* FOOTER */
+footer{
+    background-color: white;
+    border-radius: 2em 2em 2em 2em;
+    box-shadow: 10px 10px 10px;
+    height: 100%;
+}
+footer h1{
+    margin: 1em;
+    padding: 2em 0em;
+}
+.section-head2{
+    color: black;
+}
+footer ul{
+    display: flex;
+}
+/* MEDIA QUERY */
+@media (max-width:768px) {
+     body{
+        padding: 1em;
+     }
+    .section-head{
+    flex-direction: column;
+    gap: 2em;
+  }
+  .section-head div{
+     margin: auto;
+  }
+  .h5{
+    text-align: center;
+  }
+  input{
+    margin:5%;
+  }
+  .section-head1{
+      flex-direction: column;
+      gap: 2em;
+  }
+  .border-list{
+    margin: auto;
+  }
+  main h2{
+      text-align: center;
+      font-size: 3em;
+      text-transform: capitalize;
+  }
+  .first{
+    margin:50% 15%;
+  }    
+}
